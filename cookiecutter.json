@@ -1,0 +1,27 @@
+{
+  "module_name": "my_integration",
+  "module_title": "My Integration",
+  "version": "0.1.0",
+  "summary": "Template for an integration module for Odoo",
+  "description": "This module is a base template for integrations with external APIs for Odoo.",
+  "author": "Your Name",
+  "company": "Your Company",
+  "website": "https://www.your-company.com",
+  "category": [
+    "Integration",
+    "Tools",
+    "Sales",
+    "Accounting",
+    "Inventory"
+  ],
+  "license": [
+    "MIT",
+    "LGPL-3",
+    "OEEL-1",
+    "Other proprietary"
+  ],
+  "depends": [
+    "base",
+    "web"
+  ]
+}
