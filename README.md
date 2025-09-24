@@ -13,16 +13,16 @@ It allows developers to quickly generate a custom Odoo module for connecting wit
 ---
 ## 🔹Features Included
 
-- Module boilerplate with standard Odoo structure.
-- HTTP client → `models/integration_client.py` to consume external APIs.
-- Webhook controller → `controllers/webhook.py` to handle incoming events.
-- Configuration view → `views/integration_settings_views.xml` for storing credentials.
-- Basic security setup → `security/ir.model.access.csv` and `security.xml`.
-- Sample CRON jobs → `data/ir_cron_data.xml` for scheduled syncs.
-- Unit test example → `tests/test_integration.py`.
-- CI/CD workflow → GitHub Actions (`.github/workflows/ci.yml`) with basic linting.
-- Per-module documentation → `README_MODULE.md`.
-- Cookiecutter config → `cookiecutter.json` for defining project variables.
+- **Module boilerplate** with standard Odoo structure.
+- **HTTP client** → `models/integration_client.py` to consume external APIs.
+- **Webhook controller** → `controllers/webhook.py` to handle incoming events.
+- **Configuration view** → `views/integration_settings_views.xml` for storing credentials.
+- **Basic security setup** → `security/ir.model.access.csv` and `security.xml`.
+- **Sample CRON jobs** → `data/ir_cron_data.xml` for scheduled syncs.
+- **Unit test example** → `tests/test_integration.py`.
+- **CI/CD workflow → GitHub Actions** (`.github/workflows/ci.yml`) with basic linting.
+- **Per-module documentation** → `README_MODULE.md`.
+- **Cookiecutter config** → `cookiecutter.json` for defining project variables.
 
 ---
 
