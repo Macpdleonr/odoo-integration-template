@@ -27,7 +27,9 @@ Allows any developer to quickly generate a custom module to connect Odoo with ex
 ## 🚀 How to use this template
 
 ### 1. Install Cookiecutter
+
 If you don't have it installed, run:
+
 ```bash
 pip install cookiecutter
 ```
@@ -56,7 +58,10 @@ Allows any developer to quickly generate a custom module to connect Odoo with ex
 ## 🚀 How to use this template
 
 ### 1. Install Cookiecutter
+
 If you don't have it installed, run:
+
 ```bash
 pip install cookiecutter
 
+```
