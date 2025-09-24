@@ -1,0 +1,10 @@
+# Ignorar carpetas de bytecode de Python
+__pycache__/
+
+# Ignorar archivos compilados de Python
+*.pyc
+
+# Ignorar archivos de editor o IDE (ej. VS Code)
+.vscode/
+*.sublime-project
+*.sublime-workspace
