@@ -30,7 +30,7 @@ Allows any developer to quickly generate a custom module to connect Odoo with ex
 If you don't have it installed, run:
 ```bash
 pip install cookiecutter
-
+```
 # Odoo 18 Integration Module Template
 
 Template for creating **integration modules in Odoo 18**.
