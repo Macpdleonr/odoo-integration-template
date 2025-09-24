@@ -75,6 +75,9 @@ Esto generará una carpeta con un módulo listo para personalizar.
 ├─ security/
 │  ├─ ir.model.access.csv           # Permisos de acceso
 │  └─ security.xml                  # Reglas de seguridad
+├─ static/
+│  ├─ description/
+│    └─ logo.png
 ├─ views/
 │  └─ res_config_settings_views.xml # Vistas de configuración
 ├─ data/
