@@ -69,6 +69,9 @@ This will create a new Odoo module folder ready for customization.
 ├─ security/
 │  ├─ ir.model.access.csv           # Access control
 │  └─ security.xml                  # Security rules
+├─ static/
+│  ├─ description/
+│    └─ logo.png
 ├─ views/
 │  └─ res_config_settings_views.xml # Configuration views
 ├─ data/
