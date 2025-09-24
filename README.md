@@ -27,7 +27,7 @@ It allows developers to quickly generate a custom Odoo module for connecting wit
 ---
 
 ## 🚀 Usage
-**1. Requirements:**
+### 1. Requirements:
 - [Python 3.8+](https://www.python.org/downloads/)
 - [Cookiecutter](https://cookiecutter.readthedocs.io/en/stable/)
 
@@ -37,7 +37,7 @@ Install Cookiecutter:
 pip install cookiecutter
 ```
 
-**2. Generate a new Odoo integration module:**
+### 2. Generate a new Odoo integration module:
 Run:
 ```bash
 cookiecutter https://github.com/your-username/odoo-integration-template.git
