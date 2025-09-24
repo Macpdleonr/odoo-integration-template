@@ -67,6 +67,7 @@ Esto generará una carpeta con un módulo listo para personalizar.
 ├─ __manifest__.py                  # Metadatos del módulo Odoo
 ├─ models/
 │  ├─ __init__.py
+│  ├─ res_config_settings.py
 │  └─ integration_client.py         # Cliente API
 ├─ controllers/
 │  ├─ __init__.py
@@ -75,7 +76,7 @@ Esto generará una carpeta con un módulo listo para personalizar.
 │  ├─ ir.model.access.csv           # Permisos de acceso
 │  └─ security.xml                  # Reglas de seguridad
 ├─ views/
-│  └─ integration_settings_views.xml# Vistas de configuración
+│  └─ res_config_settings_views.xml # Vistas de configuración
 ├─ data/
 │  └─ ir_cron_data.xml              # Tareas programadas (CRON)
 ├─ tests/
