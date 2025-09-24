@@ -13,9 +13,8 @@
     "license": "{{ cookiecutter.license }}",
     "depends": ["base", "web"],
     "data": [
-        "security/security.xml",
         "security/ir.model.access.csv",
-        "views/integration_settings_views.xml",
+        "views/res_config_settings_views.xml",
         "data/ir_cron_data.xml",
     ],
     "installable": True,
