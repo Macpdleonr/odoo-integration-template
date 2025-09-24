@@ -61,6 +61,7 @@ This will create a new Odoo module folder ready for customization.
 ├─ __manifest__.py                  # Odoo module metadata
 ├─ models/
 │  ├─ __init__.py
+│  ├─ res_config_settings.py
 │  └─ integration_client.py         # API client
 ├─ controllers/
 │  ├─ __init__.py
@@ -69,7 +70,7 @@ This will create a new Odoo module folder ready for customization.
 │  ├─ ir.model.access.csv           # Access control
 │  └─ security.xml                  # Security rules
 ├─ views/
-│  └─ integration_settings_views.xml# Configuration views
+│  └─ res_config_settings_views.xml# Configuration views
 ├─ data/
 │  └─ ir_cron_data.xml              # CRON jobs
 ├─ tests/
