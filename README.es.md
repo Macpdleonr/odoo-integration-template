@@ -7,7 +7,7 @@
 
 > 🇬🇧 **Prefer English?** [Read this README in English 🇬🇧](./README.md)
 
-Plantilla basada en **Cookiecutter** para crear **módulos de integración en Odoo 18**.  
+Plantilla basada en **Cookiecutter** para crear **módulos de integración en Odoo**.  
 Permite a cualquier desarrollador generar rápidamente un módulo personalizado para conectar Odoo con APIs externas, webhooks o servicios de terceros.  
 
 ---
