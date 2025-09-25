@@ -8,10 +8,9 @@
         Integration module in Odoo to connect with external services.
     """,
     "author": "{{ cookiecutter.author }}",
-    "website": "https://github.com/{{cookiecutter.github_user}}",
-    "category": "Integration",
-    "license": "{{ cookiecutter.license }}",
-    "depends": ["base", "web"],
+    "website": "{{ cookiecutter.website }}",
+    "category": "{{ cookiecutter.category }}",
+    "depends": {{ cookiecutter.depends }},
     "data": [
         "security/ir.model.access.csv",
         "views/res_config_settings_views.xml",
@@ -19,5 +18,5 @@
     ],
     "installable": True,
     "application": False,
-    "license": "MIT",
+    "license": "{{ cookiecutter.license }}",
 }
