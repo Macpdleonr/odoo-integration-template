@@ -46,7 +46,7 @@ pip install cookiecutter
 Ejecuta:
 
 ```bash
-cookiecutter https://github.com/tu-usuario/odoo-integration-template.git
+cookiecutter https://github.com/macpdleonr/odoo-integration-template.git
 ```
 
 Se te pedirá ingresar algunas variables (definidas en `cookiecutter.json`):
