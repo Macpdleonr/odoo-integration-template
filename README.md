@@ -40,7 +40,7 @@ pip install cookiecutter
 ### 2. Generate a new Odoo integration module:
 Run:
 ```bash
-cookiecutter https://github.com/your-username/odoo-integration-template.git
+cookiecutter https://github.com/macpdleonr/odoo-integration-template.git
 ```
 You will be prompted for some variables (defined in `cookiecutter.json`):
 
