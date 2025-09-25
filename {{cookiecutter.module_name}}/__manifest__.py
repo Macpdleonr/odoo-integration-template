@@ -3,7 +3,7 @@
     "version": "{{ cookiecutter.version }}",
     "summary": "{{ cookiecutter.summary }}",
     "description": """
-        {{cookiecutter.module_name}}
+        {{cookiecutter.description}}
         ============================
         Integration module in Odoo to connect with external services.
     """,
@@ -17,6 +17,7 @@
         "data/ir_cron_data.xml",
     ],
     "installable": True,
-    "application": False,
+    "application": True,
+    'auto_install': False,
     "license": "{{ cookiecutter.license }}",
 }
