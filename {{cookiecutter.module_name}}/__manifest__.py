@@ -10,7 +10,7 @@
     "author": "{{ cookiecutter.author }}",
     "website": "{{ cookiecutter.website }}",
     "category": "{{ cookiecutter.category }}",
-    "depends": {{ cookiecutter.depends }},
+    "depends":  ['{{cookiecutter.depends}}'] ,
     "data": [
         "security/ir.model.access.csv",
         "views/res_config_settings_views.xml",
