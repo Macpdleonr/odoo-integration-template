@@ -20,7 +20,7 @@
     "Other proprietary"
   ],
   "depends": [
-    "['base']",
-    "['web']"
+    "base",
+    "web"
   ]
 }
