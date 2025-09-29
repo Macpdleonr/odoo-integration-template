@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<!-- Menu root -->
+	<menuitem
+        id="menu_{{cookiecutter.module_name}}_root" 
+		name="{{cookiecutter.module_title}}"
+		sequence="30"
+		web_icon="{{cookiecutter.module_name}},static/description/icon.png"
+	/>
+
+	<!-- Submenu -->
+	<menuitem
+		id="menu_{{cookiecutter.module_name}}_section"
+		name="Section"
+		parent="menu_{{cookiecutter.module_name}}_root"
+		sequence="10"
+	/>
+
+	<!-- Submenu Request -->
+	<menuitem
+		id="menu_{{cookiecutter.module_name}}_"
+		name="Request"
+		parent="menu_{{cookiecutter.module_name}}_section"
+		sequence="10"
+		action="action_"
+	/>
+
+	<!-- Submenu Configuration -->
+	<menuitem
+		id="menu_{{cookiecutter.module_name}}_config"
+		name="Configuration"
+		parent="menu_{{cookiecutter.module_name}}_root"
+		action="action_res_config_settings_{{cookiecutter.module_name}}"
+		sequence="20"
+		groups="base.group_system"
+	/>
+
+</odoo>
