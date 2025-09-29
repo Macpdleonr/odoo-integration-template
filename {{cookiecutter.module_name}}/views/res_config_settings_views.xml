@@ -1,43 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
-        <record id="res_config_settings_view_form" model="ir.ui.view">
-            <field name="name">res.config.settings.view.form.inherit</field>
+        <record id="res_config_settings_view_form_inherit_{{cookiecutter.module_name}}" model="ir.ui.view">
+            <field name="name">res.config.settings.view.form.inherit.{{cookiecutter.module_name}}</field>
             <field name="model">res.config.settings</field>
             <field name="inherit_id" ref="base.res_config_settings_view_form"/>
             <field name="arch" type="xml">
                 <xpath expr="//form" position="inside">
                     <app
-                        name="settings"
-                        string="settings"
-                        logo="/{{cookiecutter.module_name}}/static/description/logo.png">
+                        name="{{cookiecutter.module_name}}_settings"
+                        string="{{cookiecutter.module_title}} Settings"
+                        logo="/{{cookiecutter.module_name}}/static/description/icon.png">
                         <block
-                            title="Setting Credentials"
-                            name="credentials">
+                            title="{{cookiecutter.module_title}} Setting Credentials"
+                            name="{{cookiecutter.module_name}}_credentials">
                             <setting
-                                id="username"
+                                id="{{cookiecutter.module_name}}_username"
                                 string="Username"
-                                help="Username">
-                                <field name="username"/>
+                                help="Username of your {{cookiecutter.module_title}} Account">
+                                <field name="{{cookiecutter.module_name}}_username"/>
                             </setting>
                             <setting
-                                id="password"
+                                id="{{cookiecutter.module_name}}_password"
                                 string="Password"
-                                help="Password">
-                                <field name="password" password="true" class="oe_inline"/>
+                                help="Password of your {{cookiecutter.module_title}} Account">
+                                <field name="{{cookiecutter.module_name}}_password" password="true" class="oe_inline"/>
                             </setting>
+
+                            <setting
+                                id="{{cookiecutter.module_name}}_base_url"
+                                string="{{cookiecutter.module_title}} Base URL"
+                                help="Root URL of the {{cookiecutter.module_title}} System. This will be used as the base to build all API endpoints.">
+                                <field name="{{cookiecutter.module_name}}_base_url"/>
+                            </setting>
+
                         </block>
                     </app>
                 </xpath>
             </field>
         </record>
 
-        <record id="config_settings" model="ir.actions.act_window">
-            <field name="name">Settings</field>
+        <record id="action_res_config_settings_{{cookiecutter.module_name}}" model="ir.actions.act_window">
+            <field name="name">{{cookiecutter.module_title}} Settings</field>
             <field name="res_model">res.config.settings</field>
             <field name="view_mode">form</field>
             <field name="target">inline</field>
-            <field name="context">{'module' : 'settings', 'bin_size': False}</field>
+            <field name="context">{'module' : '{{cookiecutter.module_name}}_settings', 'bin_size': False}</field>
         </record>
     </data>
 </odoo>
